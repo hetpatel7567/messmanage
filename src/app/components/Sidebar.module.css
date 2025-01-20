@@ -1,0 +1,33 @@
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+}
+
+.sidebarButton {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 18px;
+    background: none;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.sidebarButton:hover {
+    background-color: #575757;
+}
+
+.hr {
+    border: 0;
+    height: 1px;
+    background: #575757;
+    margin: 10px 0;
+}
