@@ -8,14 +8,48 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  /* :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-  }
+  } */
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
+}
+.custom{
+  background-color: black;
+  color: wheat;
+  display: flex;
+  justify-content: center;
+}
+
+.whitecolor{
+  color: rgb(255, 0, 0);
+}
+
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ccffcc; /* Light green background */
+  font-family: Arial, sans-serif;
+}
+
+/* Styles specific to the Logo component */
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Center the text vertically and horizontally */
+}
+
+.custom-underline {
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 8px; /* Increases the weight of the underline */
+  text-underline-offset: 5px; /* Adds offset from the text */
+  text-decoration-skip-ink: auto; /* Ensures underline doesn't skip over descenders */
+  font-size: 55px; /* Font size */
+  font-weight: bold; /* Extra bold styling */
 }
